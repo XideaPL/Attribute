@@ -1,0 +1,31 @@
+{
+    "name": "xideapl/attribute",
+    "type": "library",
+    "description": "Xidea Attribute",
+    "keywords": [],
+    "homepage": "http://xidea.pl",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artur Pszczółka",
+            "email": "artur.pszczolka@xidea.pl"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xidea\\Attribute\\": "src/",
+            "Xidea\\Attribute\\Tests": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
