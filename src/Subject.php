@@ -17,7 +17,7 @@ class Subject implements SubjectInterface
     /*
      * @var ValueInterface[]
      */
-    protected $attributesValues;
+    protected $attributesValues = array();
     
     /**
      * {@inheritDoc}

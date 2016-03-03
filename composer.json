@@ -20,7 +20,7 @@
     "autoload": {
         "psr-4": {
             "Xidea\\Attribute\\": "src/",
-            "Xidea\\Attribute\\Tests": "tests/"
+            "Xidea\\Attribute\\Tests\\": "tests/"
         }
     },
     "extra": {
